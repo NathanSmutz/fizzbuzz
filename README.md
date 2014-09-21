@@ -1,7 +1,9 @@
 # fizzbuzz
 
-A Clojure app to ... well, that part is up to you.
+The traditional FizzBuzz toy program, common in programming interviews.
+
+For every number from 1 to 100 ouput Fiz if the number is divisible by 3, Buzz if it's divisible by 5, FizzBuzz if it's divisible by both 3 and 5; otherwise output the number itself.
 
 ## Usage
 
-FIXME
+Just run it and it spits out the sequence to standard out

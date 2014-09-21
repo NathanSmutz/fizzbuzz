@@ -6,7 +6,7 @@
 
 (defn fizzbuzz [n]
   (-> 
-    (str (when (| 3 n) "fizz") (when (| 5 n) "buzz"))
+    (str (when (| 3 n) "Fizz") (when (| 5 n) "Buzz"))
     not-empty ;; Turn empty string into nil
     (or n)))  ;; Return n if we got nil
 
